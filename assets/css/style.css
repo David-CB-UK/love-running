@@ -1,3 +1,6 @@
+/* Google fonts import - Lato (all) & Oswald (300) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     margin: 0;
@@ -12,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic project Styles */
     color: #3a3a3a;
+    font-family: "Lato", sans-serif;  // Note: second font is a fallback in case the first one fails to load 
 }
 
 /* Header */
