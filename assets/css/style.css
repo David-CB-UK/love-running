@@ -27,7 +27,9 @@ header {
     z-index: 99; /* 99 to make sure it's layered on top of any other elements */
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a; /* small shadow at the bottom here, so let's set that to 2px. third value set blur - how soft / hard it looks */
-
+    display: flex; /* use flexbox to align items in the header */
+    justify-content: space-between; /* space out the items in the header */
+    align-items: baseline;
 }
 
 header a {
@@ -65,8 +67,16 @@ nav {
     padding: 0 1rem; 
     box-shadow: 0 2px 2px #3a3a3a;
     display: none; /* Hide the dropdown menu by default */
+    top: 100%;
 }                               
 
+#nav-toggle {
+    display: none; /* Hide the checkbox */
+}
+
+.nav-toggle-label {
+    font-size: 2rem; 
+}
 
 /* Main content */
 main {
