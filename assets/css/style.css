@@ -30,9 +30,18 @@ header {
 
 }
 
+header a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent element, which is the header in this case. This ensures that the link will have the same color as the header text. */
+}
+
 h1 {
     font-family: "Oswald", sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 2px; /* adds space between letters */
+    color: #252525;
 }
+
 /* Main content */
 main {
     background-color: lightblue;
