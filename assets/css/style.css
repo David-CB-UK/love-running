@@ -15,12 +15,19 @@ body {
     flex-direction: column;
     /* Generic project Styles */
     color: #3a3a3a;
-    font-family: "Lato", sans-serif;  // Note: second font is a fallback in case the first one fails to load 
-}
+    font-family: "Lato", sans-serif;  
+}                                       /* Note: second font is a fallback in case the first one fails to load */
+
 
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: white;
+    padding: 0 1rem; /* padding left and right to prevent our text from sticking to the side of the screen. */
+    position: fixed;
+    z-index: 99; /* 99 to make sure it's layered on top of any other elements */
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a; /* small shadow at the bottom here, so let's set that to 2px. third value set blur - how soft / hard it looks */
+
 }
 
 h1 {
