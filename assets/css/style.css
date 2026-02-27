@@ -127,3 +127,10 @@ footer {
         margin-top: 79px;
     }
 }
+
+/* Larger devices (laptops and desktops, 992 pc and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a; /* adds a border to the bottom of the menu item on hover */
+    }
+}
