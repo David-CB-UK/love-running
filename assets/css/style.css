@@ -48,6 +48,10 @@ h1 {
     list-style-type: none;   /* removes the default bullet points from the list */
 }
 
+#menu > li {
+    margin-bottom: 1em;
+}
+
 /* Main content */
 main {
     background-color: lightblue;
