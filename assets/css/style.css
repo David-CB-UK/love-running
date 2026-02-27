@@ -83,9 +83,34 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px; /* Add top margin to prevent content from being hidden behind the fixed header */
 }
 
 /* Footer */
 footer {
     background-color: orange;
+}
+
+/* Media query for tablets & larger */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;  /* Show the dropdown menu on larger screens */
+        position: relative; /* Change position to relative for larger screens */
+        box-shadow: none; /* Remove box shadow for larger screens  as no longer required */
+        width: fit-content; /* Adjust width to fit content for larger screens */
+        padding-right: 1rem; /* Add right padding for larger screens */
+    }
+
+    #menu {
+        display: flex; /* Use flexbox to layout menu items horizontally */
+    }
+
+    #menu > li {
+        padding-left: 1rem; /* Add left padding to space out menu items */
+    }
+
+    .nav-toggle-label {
+        display: none; /* Hide the hamburger menu icon on larger screens */
+    }
 }
