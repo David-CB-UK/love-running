@@ -42,6 +42,12 @@ h1 {
     color: #252525;
 }
 
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+    list-style-type: none;   /* removes the default bullet points from the list */
+}
+
 /* Main content */
 main {
     background-color: lightblue;
