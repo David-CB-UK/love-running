@@ -236,7 +236,7 @@ main {
 }
 
 @media screen and (min-width: 1200px) {    
-    /* Reasons section */
+    /* Reasons section for 1200 and wider screens */
     #benefits {
         display: flex;
         flex-direction: row;
