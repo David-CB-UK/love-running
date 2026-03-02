@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: white;
+    background-color: #ffffff;
     padding: 0 1rem; /* padding left and right to prevent our text from sticking to the side of the screen. */
     position: fixed;
     z-index: 99; /* 99 to make sure it's layered on top of any other elements */
@@ -87,9 +87,19 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange;
-}
+    #social-networks {
+        text-align: center; /* Center the social media icons */
+        padding: 20px 0; /* Add padding to the top and bottom of the footer */
+        display: flex; /* Use flexbox to layout the social media icons */
+        justify-content: space-evenly; /* Space out the social media icons evenly */
+        list-style-type: none; /* Remove default list styling bullet points */
+    }
+
+    #social-networks i {
+        font-size: 160%; /* Increase the font size of the social media icons */
+        padding: 5%; /* Add padding around the social media icons */
+        color: #3a3a3a /* Set the color of the social media icons to match other elements */
+    }
 
 /* Media query for tablets & larger */
 @media screen and (min-width: 768px) {
