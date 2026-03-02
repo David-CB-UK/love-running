@@ -80,10 +80,16 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px; /* Add top margin to prevent content from being hidden behind the fixed header */
+}
+
+/* Hero Section */
+#hero {
+    height: 600px; /* Set a fixed height for the hero section */
+    width: 100%;    
+    background: url(../images/hero-image.webp)no-repeat center center/cover; /* Set the background image and position it in the center */
 }
 
 /* Footer */
