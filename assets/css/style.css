@@ -206,6 +206,14 @@ main {
         color: #3a3a3a /* Set the color of the social media icons to match other elements */
     }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576.px) {
+    #photos {
+        column-count: 2; /* Use CSS columns to create a two-column layout for the photos */
+        column-gap: 0; /* Remove the gap between columns to create a seamless gallery */
+    }
+}
+
 /* Media query for tablets & larger */
 @media screen and (min-width: 768px) {
     /* Header */
