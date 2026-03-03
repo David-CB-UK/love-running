@@ -181,6 +181,16 @@ main {
     color: #fafafa;    
 }
 
+/* Gallery page */
+#photos img {         /* Target any img in photos div */
+    width: 100%;
+    line-height: 1em; /* Set line height to 1em to prevent the gap between images and prevent issues if alt text being under other files / half missing / unreadable  */
+}
+
+#photos {
+    line-height: 0; /* removes the small gap between images caused by the default line height */
+}
+
 /* Footer */
     #social-networks {
         text-align: center; /* Center the social media icons */
