@@ -207,7 +207,7 @@ main {
     }
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576.px) {
+@media screen and (min-width: 576px) {
     #photos {
         column-count: 2; /* Use CSS columns to create a two-column layout for the photos */
         column-gap: 0; /* Remove the gap between columns to create a seamless gallery */
