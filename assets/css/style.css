@@ -164,6 +164,10 @@ main {
     background-color: rgba(0, 0, 0, .6);   /* creates a black, transparent background and act as overlay to improve contrast of background image and text*/
     padding: 15px;
     text-align: center;
+    /* this will not wrap on the screens of less than 400 PX wide - It will stop this wrapping on screens that are too narrow to show two boxes next to each other.
+    Each div will expand to fill the available space on its row when there is space. */
+    flex-basis: 200px; /* sets the initial width of the divs to 200px  */
+    flex-grow: 1; /* allows the divs to grow and fill the available space*/
 }
 
 #times h3 {
