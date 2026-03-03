@@ -273,13 +273,23 @@ main {
         text-align: end;
         align-self: flex-end;
     }
-
+    
+    /* Gallery */
+    #photos {
+        column-count: 3; /* Use CSS columns to create a three-column layout for the photos */
+    }
 }
+
 
 /* Larger devices (laptops and desktops, 992 pc and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a; /* adds a border to the bottom of the menu item on hover */
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
     }
 }
 
@@ -309,4 +319,4 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
-} 
+}
