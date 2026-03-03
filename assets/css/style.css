@@ -166,6 +166,11 @@ main {
     text-align: center;
 }
 
+#times h3 {
+    /* Overrides the heading colour set in general */
+    color: #fafafa;    
+}
+
 /* Footer */
     #social-networks {
         text-align: center; /* Center the social media icons */
