@@ -241,14 +241,18 @@ main {
         font-size: 280%; /* Increase the font size of the logo for larger screens */
         line-height: 75px; /* Adjust line height to give it some more space at the top */
         margin: 0 0.5rem; /* Add margin to the left and right of the logo */
-
     }
 
     /* Main content */
-    main { 
-        /* push main content down to to accommodate larger hader */
-        margin-top: 79px;
-    }
+    main {
+    /* Enlarge main element to push footer down*/
+        flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+        margin-top: 47px;
+    /* Enable flex properties for child elements */
+        display: flex;
+        flex-direction: column;
+}
 
     /* Hero  */
     #cover-text {
