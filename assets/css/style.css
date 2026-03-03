@@ -25,6 +25,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none; /* hides the heading but keeps it in the HTML for accessibility and SEO purposes */
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -167,7 +171,9 @@ main {
     /* this will not wrap on the screens of less than 400 PX wide - It will stop this wrapping on screens that are too narrow to show two boxes next to each other.
     Each div will expand to fill the available space on its row when there is space. */
     flex-basis: 200px; /* sets the initial width of the divs to 200px  */
-    flex-grow: 1; /* allows the divs to grow and fill the available space*/
+    flex-grow: 1; /* allows the divs to grow and fill the available space */
+    /* Creates a grid of meetup time divs over the background image  - white edge between 'times' boxes */
+    border: 2px solid white;
 }
 
 #times h3 {
